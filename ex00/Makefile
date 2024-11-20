@@ -7,7 +7,7 @@ OBJ := $(SRC:.cpp=.o)
 
 CC := c++
 
-CFLAGS := -Wall -Wextra -Werror -Wshadow -Wno-shadow -std=c++98
+CFLAGS := -Wall -Wextra -Werror -std=c++98
 
 GREEN := \033[0;32m
 

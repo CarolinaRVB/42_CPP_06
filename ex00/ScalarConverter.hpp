@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ScalarConverter.hpp                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: crebelo- <crebelo-@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: crebelo- <crebelo-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 09:11:58 by crebelo-          #+#    #+#             */
-/*   Updated: 2024/11/16 07:48:42 by crebelo-         ###   ########.fr       */
+/*   Updated: 2024/11/20 15:46:04 by crebelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,9 @@
 
 # include <iostream>
 # include <string.h>
+# include <cstdlib>
+# include <iomanip>
+# include <limits>
 
 class ScalarConverter
 {
