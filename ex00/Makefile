@@ -1,6 +1,9 @@
 NAME := convert
 
 SRC := 	ScalarConverter.cpp \
+		ScalarConverter_checkType.cpp \
+		ScalarConverter_convertType.cpp \
+		ScalarConverter_utils.cpp \
 		main.cpp
 
 OBJ := $(SRC:.cpp=.o)
