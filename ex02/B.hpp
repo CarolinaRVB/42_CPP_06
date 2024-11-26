@@ -1,25 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Base.hpp                                           :+:      :+:    :+:   */
+/*   B.hpp                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: crebelo- <crebelo-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/25 13:32:14 by crebelo-          #+#    #+#             */
-/*   Updated: 2024/11/25 16:25:58 by crebelo-         ###   ########.fr       */
+/*   Created: 2024/11/25 13:35:01 by crebelo-          #+#    #+#             */
+/*   Updated: 2024/11/25 15:33:05 by crebelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef BASE_HPP
-# define BASE_HPP
+#ifndef B_HPP
+# define B_HPP
+# include "Base.hpp"
 
-# include <iostream>
-# include <stdlib.h>
-# include <ctime>
-
-class Base {
+class B : public Base {
     public:
-        virtual ~Base();
+        ~B();
 };
 
 #endif

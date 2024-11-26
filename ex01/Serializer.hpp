@@ -6,7 +6,7 @@
 /*   By: crebelo- <crebelo-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/24 17:49:25 by crebelo-          #+#    #+#             */
-/*   Updated: 2024/11/25 13:31:22 by crebelo-         ###   ########.fr       */
+/*   Updated: 2024/11/25 13:32:08 by crebelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,7 @@
 
 #include <iostream>
 #include "Data.hpp"
-#include <stdint.h> // Check if the compiler supports this
-
+#include <stdint.h>
 
 class   Serializer {
   private:

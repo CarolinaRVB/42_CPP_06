@@ -1,25 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Base.hpp                                           :+:      :+:    :+:   */
+/*   A.cpp                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: crebelo- <crebelo-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/25 13:32:14 by crebelo-          #+#    #+#             */
-/*   Updated: 2024/11/25 16:25:58 by crebelo-         ###   ########.fr       */
+/*   Created: 2024/11/25 16:22:57 by crebelo-          #+#    #+#             */
+/*   Updated: 2024/11/26 07:58:32 by crebelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef BASE_HPP
-# define BASE_HPP
+# include "A.hpp"
 
-# include <iostream>
-# include <stdlib.h>
-# include <ctime>
-
-class Base {
-    public:
-        virtual ~Base();
-};
-
-#endif
+A::~A() {
+    std::cout << "Destructor A called\n";
+}
