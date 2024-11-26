@@ -6,7 +6,7 @@
 /*   By: crebelo- <crebelo-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/24 17:49:25 by crebelo-          #+#    #+#             */
-/*   Updated: 2024/11/25 13:32:08 by crebelo-         ###   ########.fr       */
+/*   Updated: 2024/11/26 15:40:39 by crebelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,9 @@ class   Serializer {
     Serializer();
     Serializer(const Serializer& serializer);
     Serializer& operator=(const Serializer& serializer);
-  public:  
     ~Serializer();
+ 
+  public:  
   
     static uintptr_t serialize(Data* ptr);
     static Data* deserialize(uintptr_t raw);    

@@ -6,15 +6,11 @@
 /*   By: crebelo- <crebelo-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 12:21:13 by crebelo-          #+#    #+#             */
-/*   Updated: 2024/11/25 13:21:07 by crebelo-         ###   ########.fr       */
+/*   Updated: 2024/11/26 15:40:45 by crebelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Serializer.hpp"
-
-Serializer::~Serializer() {
-    std::cout << "Serializer destructor called\n";
-}
 
 /*  Converts the pointer Data to a uintptr_t integer representation
     The result will be a numerical representation of the memory address

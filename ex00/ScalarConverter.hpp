@@ -6,7 +6,7 @@
 /*   By: crebelo- <crebelo-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 09:11:58 by crebelo-          #+#    #+#             */
-/*   Updated: 2024/11/24 16:36:22 by crebelo-         ###   ########.fr       */
+/*   Updated: 2024/11/26 15:37:38 by crebelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,10 @@ class ScalarConverter
 {
 	private:
 		ScalarConverter();
-	
+        ScalarConverter(const ScalarConverter& scalarconverter);
+        ScalarConverter& operator=(const ScalarConverter& scalarconverter);
+        ~ScalarConverter();
+
 	public:
 		static void	convert(std::string literal);
 };
