@@ -6,17 +6,19 @@
 /*   By: crebelo- <crebelo-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/24 15:35:39 by crebelo-          #+#    #+#             */
-/*   Updated: 2024/11/24 16:43:36 by crebelo-         ###   ########.fr       */
+/*   Updated: 2024/11/26 15:44:54 by crebelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 # include "ScalarConverter.hpp"
 
 void    convertChar(std::string literal) {
-    std::cout << "char: " << static_cast<char>(literal[0]) << "\n";
-    std::cout << "int: " << static_cast<int>(literal[0]) << "\n";
-    std::cout << "float: " << std::fixed << std::setprecision(1) << static_cast<float>(literal[0]) << "f\n";
-    std::cout << "float: " << std::fixed << std::setprecision(1) << static_cast<double>(literal[0]) << "\n";   
+    char c = static_cast<char>(literal[0]);
+    
+    std::cout << "char: " << c << "\n";
+    std::cout << "int: " << static_cast<int>(c) << "\n";
+    std::cout << "float: " << std::fixed << std::setprecision(1) << static_cast<float>(c) << "f\n";
+    std::cout << "float: " << std::fixed << std::setprecision(1) << static_cast<double>(c) << "\n";   
 }
 
 void    convertInt(std::string literal) {
