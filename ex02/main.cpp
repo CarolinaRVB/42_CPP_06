@@ -6,7 +6,7 @@
 /*   By: crebelo- <crebelo-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 14:52:43 by crebelo-          #+#    #+#             */
-/*   Updated: 2024/11/26 09:03:36 by crebelo-         ###   ########.fr       */
+/*   Updated: 2024/11/26 09:05:31 by crebelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,18 +22,14 @@
 static Base *generate(void) {
     std::srand(std::time(0));
     int i = std::rand() % 3 + 1;
+    
     switch (i) {
         case 1:
-        {
             return (new A);
-            break;
-        }
         case 2:
             return (new B);
-            break;
         case 3:
             return (new C);
-            break;
     }
     return 0;
 }
